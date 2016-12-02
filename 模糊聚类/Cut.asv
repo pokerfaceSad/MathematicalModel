@@ -1,0 +1,15 @@
+%º∆À„pΩÿºØ
+
+function CutSet = Cut(Result,p)
+
+    for i = 1:length(Result)
+        for j = 1:length(Result)
+            if(Result(i,j)<p)
+                Result(i,j) = 0;
+            else 
+                Result(i,j) = 1;
+            end
+        end           
+    end
+    
+end    

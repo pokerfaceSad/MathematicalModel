@@ -1,0 +1,4 @@
+%Ô¼ÊøÌõ¼şg1
+function g = g1(x)
+g = t - 13600;
+end
